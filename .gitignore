@@ -5,5 +5,5 @@
 node_modules
 
 # NativeScript application
-/dist
-/template
+hooks
+platforms

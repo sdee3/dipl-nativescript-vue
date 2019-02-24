@@ -44,6 +44,7 @@ export default {
             if (json.main) {
               this.temperature = parseInt(json.main.temp);
               this.cityName = json.name;
+              this.countryCode = json.sys.country;
             }
           });
       }

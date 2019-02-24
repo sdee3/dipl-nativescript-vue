@@ -3,7 +3,11 @@
     <ActionBar class="action-bar" title="Weather App"></ActionBar>
 
     <StackLayout class="hello-world">
-      <TextField v-model="textFieldValue" @textChange="fetchWeatherInformation"/>
+      <TextField
+        v-model="textFieldValue"
+        @textChange="fetchWeatherInformation"
+        hint="Enter city name..."
+      />
       <TextView editable="false" class="body" textWrap="true" v-model="weatherInformation"/>
     </StackLayout>
   </Page>

@@ -4,6 +4,9 @@
   "description": "A native application built with NativeScript-Vue",
   "author": "Stefan <stefandjokic@pm.me>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tns run android --bundle"
+  },
   "nativescript": {
     "id": "org.nativescript.application",
     "tns-ios": {
